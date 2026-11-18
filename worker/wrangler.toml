@@ -1,0 +1,12 @@
+name = "taller-sesgos-csv"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+GITHUB_REPO = "samorwno/taller-sesgos-entrevista"
+CSV_PATH = "respuestas.csv"
+BRANCH = "main"
+ALLOWED_ORIGINS = "https://samorwno.github.io,http://localhost:8000,http://127.0.0.1:8000"
+
+# El token no se escribe aquí. Se configura una sola vez como secreto:
+#   npx wrangler secret put GITHUB_TOKEN
